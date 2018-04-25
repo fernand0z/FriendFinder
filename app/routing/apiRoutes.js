@@ -2,8 +2,7 @@
 // Developed by Fernando Zacarias
 
 //GET route for friends
-
-
+const friendsData = require('./../data/friends.js');
 function apiRoutes(app) {
 app.get("/api/friends", function (req, res) {
     return res.json(friendsData);
