@@ -68,4 +68,7 @@ var friendsData = [
         1,
     ]
 }
-]
+];
+
+//Export to apiRoutes.js file
+module.exports = friendsData;
