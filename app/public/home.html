@@ -1,5 +1,5 @@
 <!-- FriendFinder Website.  A survey site that will compare results and match users based on compatibility -->
-<!-- Created by: Fernando Zacarias -->
+<!-- Developed by: Fernando Zacarias -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +9,7 @@
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- Font Awesome Glyphicons -->
@@ -17,13 +18,13 @@
 
 <body>
     <!--=====================================HEADER==================================-->
-    <div class="container">
+    <div class="container" id="container-div">
         <div class="jumbotron" id="jumbo">
             <h1 id="first-heading">
-                <i class="fa fa-child" aria-hidden="true"></i> Friend Finder</h1>
+                <i class="fa fa-child" aria-hidden="true"></i>  Friend Finder  <i class="fa fa-child" aria-hidden="true"></i>
             <hr>
             <h2 id="heading2">Proceed to the quiz and answer a few simple questions.</h2>
-            <h2 id="heading3">Then find the friend with the greatest compatibility!</h2>
+            <h2 id="heading3">Then we'll match you with a friend based on compatibility!</h2>
             <br>
 
             <!--=====================================SURVEY BUTTON==================================-->
@@ -38,7 +39,7 @@
 
         </div>
         <!--=====================================FOOTER==================================-->
-        <footer class="footer">
+        <footer class="footer" id="foot">
             <div class="container">
                 <p>
                     <a href="/api/friends">API Friends List</a> |
