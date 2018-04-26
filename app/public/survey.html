@@ -288,6 +288,10 @@
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#match-name").text(data.name);
                     $("#match-img").attr("src", data.photo);
+                    //Resize image
+                    $('img')
+                    .width('300px')
+                    .height('auto');
 
                     // Show the modal with the best match
                     $("#results-modal").modal("toggle");
