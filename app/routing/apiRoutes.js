@@ -1,5 +1,3 @@
-import { STATUS_CODES } from 'http';
-
 // JS File to handle possible api routes
 // Developed by Fernando Zacarias
 
