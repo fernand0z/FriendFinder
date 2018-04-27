@@ -13,7 +13,8 @@ body {
 
 #jumbo {
     margin: auto;
-    background: linear-gradient(45deg, #085078 20%, #85d8ce 75%);
+    background: linear-gradient(45deg,rgba(8, 80, 120, .8) 20%, rgba(133, 216, 206, 0.8) 75%);
+    /* background: linear-gradient(45deg, #085078 20%, #85d8ce 75%); */
 
     /* background: linear-gradient(to right, rgba(80, 200, 170, 0.7), rgba(80, 160, 190, 0.85)); */
     color: white;
@@ -36,4 +37,17 @@ body {
     margin-bottom: 25%;
     font-weight: bold;
     color: gray;
+    margin-right: 20%;
+}
+
+#survey-container {
+    color: white;
+}
+
+#submit { 
+    background: #fc466b;
+}
+
+.hvr-bounce-to-bottom:before {
+    background: darkviolet !important;
 }
